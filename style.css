@@ -5,11 +5,13 @@ html {
 body {
     margin: 0;
     height: 500px;
-    background-image: url("img/fondo\ 1.jpg");
+    background-image: url("img/fondo.jpg");
     background-repeat:no-repeat;
+    /*
     background-position-x:center;
     background-position-y:center;
-    background-size:contain; 
+    */
+    background-size:cover; 
     background-color: #efefef;
 }
 
@@ -24,6 +26,7 @@ header h1 {
     text-align: center;
 }
 .container {
+    text-align: center;
     width: 600px;
     margin: 0 auto;
 }
@@ -48,7 +51,7 @@ footer {
     color: #fff;
 }
 footer section {
-    float: right;
+    float: left;
 }
 footer p {
     margin: 0;
