@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     height: 500px;
-    background-image: url("img/fondo.jpg");
+    background-image: url("img/fondo.png");
     background-repeat:no-repeat;
     /*
     background-position-x:center;
