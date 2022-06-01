@@ -4,10 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    height: 500px;
-    /*
-    background-image: url("img/fondo.png");
-    */
+    height: 250px;
     background-repeat:no-repeat;
     background-position-x:center;
     background-position-y:center;
@@ -16,6 +13,7 @@ body {
 }
 
 header {
+    display:grid;
     background-color: #364552;
     color: white;
     padding: 3rem 2rem;
@@ -26,6 +24,8 @@ header h1 {
     text-align: center;
 }
 .container {
+    display: block;
+    display: flexbox;
     text-align: center;
     width: 600px;
     margin: 0 auto;
@@ -40,6 +40,19 @@ section article {
      padding: 0.25rem 0;
      cursor: pointer;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+img:hover {
+    transform: scale(1.7);
+}
+
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
