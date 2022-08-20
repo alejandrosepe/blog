@@ -3,12 +3,17 @@ html {
 }
 
 body {
+    /*
     margin: 0 auto;
     height: 500px;
-    background-repeat:no-repeat;
     background-position-x:center;
     background-position-y:center;
-    background-size:cover; 
+    background-repeat:no-repeat;
+    background-image:url(img/fondo_4.png);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    */
+
     background-color: #efefef;
 }
 
@@ -19,7 +24,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
 }
 
  /* DEMO-SPECIFIC STYLES */
@@ -47,25 +52,43 @@ header h1 {
  }
   }
 
+  .content {
+	width:600px;
+	height:400px;
+	line-height:400px;
+	margin:0px auto;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+ 
+.content img {
+	vertical-align:middle;
+}
+
 .container {
     text-align: center;
-    width: 700px;
+    width: 500px;
     margin: 0 auto;
     
 }
 
+/*.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 img {
     transition: 0.5s;
     object-fit: cover;
     border-radius: 0.5rem;
 }
+*/
 
-/*
 img:hover {
     transform: scale(1.3);
 }
-*/
+
 
 section article {
      transition: all 0.3s ease;
@@ -102,3 +125,22 @@ footer a {
 footer a:hover {
     color: cornflowerblue
 }
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+        
