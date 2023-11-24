@@ -34,6 +34,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s; /* Efecto de transición al pasar el mouse */
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Naranja brillante al pasar el mouse */
 }
 
 /* Contenido principal */
@@ -51,17 +56,23 @@ footer {
     background-color: #333;
     color: #fff;
 }
-.gradient-background {
-    background: linear-gradient(to right, blue, pink);
-}
-.highlight-text {
-    color: #ff6600; /* Naranja */
-}
-.green-text {
-    color: green;
-}
-.purple-background {
-    background-color: purple;
+
+/* Galería de fotos */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Efecto de escala al pasar el mouse */
+}
 
+.gallery img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
