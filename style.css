@@ -54,4 +54,14 @@ footer {
 .gradient-background {
     background: linear-gradient(to right, blue, pink);
 }
+.highlight-text {
+    color: #ff6600; /* Naranja */
+}
+.green-text {
+    color: green;
+}
+.purple-background {
+    background-color: purple;
+}
+
 
